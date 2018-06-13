@@ -1,18 +1,22 @@
 .box {
-    font-family: 'Roboto', sans-serif;
-    width: 540px;
-    margin-top: 40px;
-    margin-right: auto;
-    margin-bottom: 40px;
-    margin-left: auto;
+  font-family: 'Roboto', sans-serif;
+  width: 540px;
+  margin-top: 40px;
+  margin-right: auto;
+  margin-bottom: 40px;
+  margin-left: auto;
 }
 
 .nav {
-    text-align: center;
+  text-align: center;
 }
 
-.link:visited {
-    color: blue;
+.link, .link:visited {
+  color: #90989A;
+}
+
+.link:hover {
+  color: #92B558;
 }
 
 ul {
@@ -20,8 +24,13 @@ ul {
 }
 
 ul li:before {
-		content: "\203A \0020";
-    color: #888;
-    position: absolute;
-    margin-left: -19px;
+  content: "\203A \0020";
+  color: #888;
+  position: absolute;
+  margin-left: -19px;
+}
+
+body {
+  color: #58646B;
+  background-color: #F0EDE5;
 }
