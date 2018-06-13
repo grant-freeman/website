@@ -1,0 +1,22 @@
+.box {
+    width: 540px;
+    margin-top: 40px;
+    margin-right: auto;
+    margin-bottom: 40px;
+    margin-left: auto;
+}
+
+.nav {
+    text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li:before {
+		content: "\203A \0020";
+    color: #888;
+    position: absolute;
+    margin-left: -19px;
+}
