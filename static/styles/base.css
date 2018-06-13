@@ -1,4 +1,5 @@
 .box {
+    font-family: 'Roboto', sans-serif;
     width: 540px;
     margin-top: 40px;
     margin-right: auto;
@@ -8,6 +9,10 @@
 
 .nav {
     text-align: center;
+}
+
+.link:visited {
+    color: blue;
 }
 
 ul {
