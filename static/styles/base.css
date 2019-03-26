@@ -12,11 +12,11 @@
 }
 
 .link, .link:visited {
-  color: #90989A;
+  color: #646536;
 }
 
 .link:hover {
-  color: #92B558;
+  color: #9ABD97;
 }
 
 ul {
@@ -31,6 +31,6 @@ ul li:before {
 }
 
 body {
-  color: #58646B;
-  background-color: #F0EDE5;
+  color: #483D03;
+  background-color: #D0F1BF;
 }
